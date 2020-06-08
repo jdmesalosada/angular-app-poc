@@ -8,6 +8,9 @@ Please read [Build a Beautiful App + Login with Angular Material](https://develo
 
 * [Node 12+](https://nodejs.org/en/) installed
 * An [Okta Developer Account](https://developer.okta.com/signup)
+* npm install -g @angular/cli@8.3.21
+
+https://developer.okta.com/blog/2020/01/21/angular-material-login
 
 > [Okta](https://developer.okta.com/) has Authentication and User Management APIs that reduce development time with instant-on, scalable user infrastructure. Okta's intuitive API and expert support make it easy for developers to authenticate, manage and secure users and roles in any application.
 

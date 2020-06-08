@@ -35,4 +35,19 @@ describe('LoginComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('it should show the invalid password message when the password is empty', () => {
+
+    expect(fixture.debugElement.nativeElement.querySelector("#invalidPasswordError")).toBeNull();
+
+    let button = fixture.debugElement.nativeElement.querySelector('button');
+    button.click();
+    fixture.detectChanges()
+
+    let invalidPasswordErrorMessage = fixture.debugElement.nativeElement.querySelector("#invalidPasswordError");
+    //expect(invalidPasswordErrorMessage.textContent).toContain("Please provide a valid password ")
+
+  });
+
+
 });
